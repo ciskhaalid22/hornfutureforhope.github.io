@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horn Future for Hope (HFH) | Official Website</title>
+  <style>
+    :root {
+      --forest-green: #0B5345;
+      --deep-blue: #1B4F72;
+      --solar-gold: #F39C12;
+      --light-bg: #F8F9F9;
+      --text-dark: #2C3E50;
+      --white: #FFFFFF;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: var(--text-dark);
+      background-color: var(--light-bg);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--white);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 900;
+      font-size: 20px;
+      color: var(--forest-green);
+      letter-spacing: 0.5px;
+    }
+
+    .logo-badge {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--forest-green), var(--deep-blue));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-size: 18px;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: var(--text-dark);
+      font-weight: 600;
+      font-size: 15px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--solar-gold);
+    }
+
+    .hero {
+      background: linear-gradient(rgba(11, 83, 69, 0.85), rgba(27, 79, 114, 0.85)), url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      color: var(--white);
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 800px;
+      margin: 0 auto 30px auto;
+      opacity: 0.95;
+    }
+
+    .btn-main {
+      background-color: var(--solar-gold);
+      color: var(--text-dark);
+      padding: 14px 32px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
+      transition: transform 0.2s;
+    }
+
+    .btn-main:hover {
+      transform: translateY(-2px);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 32px;
+      color: var(--forest-green);
+      margin-bottom: 40px;
+      font-weight: 800;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: var(--white);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+      border-top: 5px solid var(--forest-green);
+    }
+
+    .card h3 {
+      color: var(--deep-blue);
+      margin-top: 0;
+      font-size: 22px;
+    }
+
+    .stats-banner {
+      background-color: var(--deep-blue);
+      color: var(--white);
+      padding: 50px 20px;
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .stats-grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+
+    .stat-item h2 {
+      font-size: 38px;
+      color: var(--solar-gold);
+      margin: 0 0 10px 0;
+    }
+
+    footer {
+      background-color: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 60px;
+      font-size: 14px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="nav-container">
+      <div class="logo-area">
+        <div class="logo-badge">HFH</div>
+        <span>Horn Future for Hope</span>
+      </div>
+      <nav>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programs</a>
+        <a href="#project">Flagship Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Empowering Communities & Building Climate Resilience</h1>
+    <p>Horn Future for Hope (HFH) is a registered local NGO in Hargeisa, Somaliland, dedicated to high-impact community development, environmental adaptation, and institutional education.</p>
+    <a href="#project" class="btn-main">View Flagship Project ($932k)</a>
+  </section>
+
+  <!-- About Section -->
+  <div class="container" id="about">
+    <h2 class="section-title">Institutional Overview</h2>
+    <div class="card" style="border-top-color: var(--deep-blue);">
+      <p><strong>Horn Future for Hope (HFH)</strong> is a non-governmental, non-profit organization headquartered in Hargeisa, Somaliland. We combine operational field implementation with a dedicated Social Research and MERL unit to deliver data-driven humanitarian solutions across public health, climate change adaptation, WASH, education, and child protection.</p>
+      <p>Our work focuses heavily on mitigating recurrent climate shocks, supporting internally displaced persons (IDPs) and vulnerable pastoralist communities, and fostering long-term socio-economic equity.</p>
+    </div>
+  </div>
+
+  <!-- Programs Section -->
+  <div class="container" id="programs">
+    <h2 class="section-title">Core Programmatic Domains</h2>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Public Health & Nutrition</h3>
+        <p>Rehabilitating primary health posts, managing community-based malnutrition treatment, and executing epidemic surveillance in rural areas.</p>
+      </div>
+      <div class="card">
+        <h3>Climate Change & WASH</h3>
+        <p>Building solar-powered deep boreholes, rainwater harvesting catchments, drought-resistant pastoral systems, and community sanitation grids.</p>
+      </div>
+      <div class="card">
+        <h3>Education & Protection</h3>
+        <p>Constructing inclusive resilient schools, guaranteeing zero-cost enrolment for displaced youth, and safeguarding women and children against GBV.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Flagship Project Showcase -->
+  <div class="container" id="project">
+    <h2 class="section-title">Flagship Grant Project (2026)</h2>
+    <div class="card" style="border-top-color: var(--solar-gold);">
+      <h3>Construction & Operation of a Climate-Resilient School in Maroodi Jeex</h3>
+      <p><strong>Total Grant Budget:</strong> USD $932,074.00</p>
+      <p><strong>Target Beneficiaries:</strong> 600 Underprivileged, Orphan, and Displaced Children; 3,500 Community Members.</p>
+      <p>This 18-month institutional project delivers 18 solar-powered climate-resilient classrooms, student dormitories, a computer ICT laboratory, gender-segregated WASH facilities, and daily school feeding to break generational poverty cycles in IDP settlements around Hargeisa.</p>
+    </div>
+  </div>
+
+  <!-- Impact Statistics Banner -->
+  <div class="stats-banner">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <h2>600+</h2>
+        <p>Children Enrolled in Project</p>
+      </div>
+      <div class="stat-item">
+        <h2>3,500+</h2>
+        <p>IDP Community Members Served</p>
+      </div>
+      <div class="stat-item">
+        <h2>18</h2>
+        <p>Climate-Resilient Classrooms</p>
+      </div>
+      <div class="stat-item">
+        <h2>100%</h2>
+        <p>Transparency & IFRS Compliance</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="container" id="contact">
+    <h2 class="section-title">Partner With Us</h2>
+    <div class="card" style="text-align: center;">
+      <p>We welcome institutional partnerships, donor inquiries, and grant collaboration.</p>
+      <p><strong>Head Office:</strong> Hargeisa Head Office, Somaliland</p>
+      <p><strong>Phone:</strong> +252 63 8826808</p>
+      <p><strong>Email:</strong> hornfutureforhope@gmail.com / info@hornfutureforhope.org</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Horn Future for Hope (HFH). All Rights Reserved.</p>
+    <p>Registered Local Non-Governmental Organization | Hargeisa, Somaliland</p>
+  </footer>
+
+</body>
+</html>
